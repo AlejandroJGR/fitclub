@@ -1,0 +1,167 @@
+.testimonials__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.testimonials__container h2 {
+  font-size: 3rem;
+  color: var(--lightgray-color);
+}
+
+.testimonials__container span {
+  color: var(--orange-color);
+  font-size: 1.5rem;
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+
+.testimonials__image {
+  position: relative;
+  z-index: 1;
+}
+
+.image__testimonial {
+  height: 20rem;
+  width: 17rem;
+  margin-right: 10rem;
+}
+
+.testimonial__text {
+  width: 60%;
+}
+
+.testimonial__text p {
+  margin: 1rem 0;
+  color: var(--lightgray-color);
+}
+
+/**Frames for the images**/
+.bg-image__testimonial {
+  position: absolute;
+  z-index: -1;
+  background: var(--planCard);
+  width: 17rem;
+  height: 20rem;
+  top: 1rem;
+  right: 9rem;
+}
+
+.bg-tr-image__testimonial {
+  position: absolute;
+  z-index: -1;
+  background: transparent;
+  border: 1px solid var(--orange-color);
+  width: 17rem;
+  height: 20rem;
+  bottom: 1.5rem;
+  right: 11rem;
+}
+
+/**for some reason, the second info doesnt display with this**/
+.testimonials:nth-child(even)>.testimonial__text {
+  display: none;
+}
+
+.testimonials:nth-child(even)>.testimonials__image {
+  display: none;
+}
+
+/**for some reason, the third info doesnt display with this**/
+.testimonials:nth-child(5)>.testimonial__text {
+  display: none;
+}
+
+.testimonials:nth-child(5)>.testimonials__image {
+  display: none;
+}
+
+/**Arrows**/
+.testimonial__arrows {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.testimonial__arrows button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.testimonial__arrows button:hover {
+  transform: scale(1.1);
+}
+
+.testimonial__arrows img {
+  height: 2rem;
+}
+
+/**Newsletter**/
+.newsletter {
+  margin-top: 5rem;
+}
+
+.newsletter,
+.newsletter h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--lightgray-color);
+  font-size: 3rem;
+  gap: 2rem;
+}
+
+.newsletter h1 {
+  width: 50%;
+  text-align: center;
+}
+
+.newsletter span {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+  font-size: 3rem;
+}
+
+.newsletter form {
+  background-color: gray;
+  display: flex;
+  gap: 3rem;
+  padding: 1rem 2rem;
+  justify-content: space-around;
+}
+
+.newsletter input {
+  background-color: initial;
+  border: none;
+  color: var(--lightgray-color);
+  outline: none;
+  font-size: 1.5rem
+}
+
+.newsletter input::placeholder {
+  color: var(--lightgray-color);
+}
+
+.newsletter button {
+  background-color: var(--orange-color);
+  color: var(--lightgray-color);
+  border: 4px solid transparent;
+  font-weight: 700;
+  padding: 0.5rem;
+  transition: all .3s;
+}
+
+.newsletter h1{
+  border-top: 2px solid var(--orange-color);
+  border-bottom: 2px solid var(--orange-color);
+}

@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 0.5rem 1rem;
+}
+
+.navbar__logo img {
+  width: 10rem;
+  height: 3rem;
+}
+
+.header__menu {
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+
+.header__menu>a {
+  text-decoration: none;
+  color: var(--lightgray-color);
+}
+
+.header__menu>a:hover {
+  color: var(--orange-color);
+  cursor: pointer;
+}
+
+.navbar__button {
+  background: transparent;
+  color: var(--lightgray-color);
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid var(--darkGrey-color);
+  margin-right: 1rem;
+  width: 7rem;
+  height: 2rem;
+}
+
+.navbar__button:hover {
+  background: #393d42;
+  transition: all 0.3s ease-in-out;
+}
