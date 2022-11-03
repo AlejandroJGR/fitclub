@@ -41,9 +41,6 @@
 
 .plans__card {
   background-color: var(--gray-color);
-  box-shadow: 0px 0px 15px 10px rgba(23, 23, 23, 0.64) inset;
-  -webkit-box-shadow: 0px 0px 15px 10px rgba(23, 23, 23, 0.64) inset;
-  -moz-box-shadow: 0px 0px 15px 10px rgba(23, 23, 23, 0.64) inset;
   height: 28rem;
   width: 20rem;
   display: flex;
@@ -69,9 +66,6 @@
 .plans__card:nth-child(2) {
   background: var(--planCard);
   height: 31rem;
-  box-shadow: 0px 0px 15px 10px rgba(23, 23, 23, 0.64) inset;
-  -webkit-box-shadow: 0px 0px 15px 10px rgba(23, 23, 23, 0.64) inset;
-  -moz-box-shadow: 0px 0px 15px 10px rgba(23, 23, 23, 0.64) inset;
   color: var(--lightgray-color);
 }
 .card__title-image{

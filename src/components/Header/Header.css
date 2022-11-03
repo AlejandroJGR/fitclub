@@ -185,7 +185,15 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.heart_rate p:nth-child(3), 
-.calories p:nth-child(2){
+
+.heart_rate p:nth-child(3),
+.calories p:nth-child(2) {
   color: var(--lightgray-color);
+}
+
+/**Media Querys**/
+@media screen and (max-width: 950px){
+  .header__right-bg{
+    display: none;
+  }
 }

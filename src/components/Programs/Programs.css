@@ -52,6 +52,7 @@
 }
 .program__card img{
   width: 3rem;
+  color: var(--lightgray-color);
 }
 .program__card a{
   color: var(--lightgray-color);

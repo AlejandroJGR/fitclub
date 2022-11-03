@@ -13,7 +13,7 @@ function Navbar() {
         <a href="#programs">Programs</a>
         <a href="#whyus">Why Us</a>
         <a href="#plans">Plans</a>
-        <a href="/">Testimonials</a>
+        <a href="#testimonials">Testimonials</a>
       </div>
       <button className="navbar__button">Join Now</button>
     </div>
