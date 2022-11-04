@@ -51,7 +51,7 @@ const Header = () => {
         <div className="header__right-bg" />
         <motion.div
           className="heart_rate"
-          initial={{ right: "-1rem" }}
+          initial={{ right: "1rem" }}
           whileInView={{ right: "4rem" }}
           transition={transition}
         >
@@ -64,13 +64,13 @@ const Header = () => {
           className="header__img-bg"
           src={headerImgBg}
           alt="headerImg Background"
-          initial={{ right: "-1rem" }}
+          initial={{ right: "1rem" }}
           whileInView={{ right: "19rem" }}
           transition={transition}
         />
         <motion.div
           className="calories"
-          initial={{ right: "-1rem" }}
+          initial={{ right: "1rem" }}
           whileInView={{ right: "28rem" }}
           transition={transition}
         >

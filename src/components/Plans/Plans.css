@@ -73,6 +73,10 @@
 }
 
 .plans__card img {
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+.tick__image img{
   height: 1.5rem;
   margin-right: 1rem;
 }
@@ -86,4 +90,8 @@
 .plans__card:hover {
   transform: scale(1.1);
   transition: all 0.3 ease-in-out;
+}
+.card__benefits div{
+  display: flex;
+  align-items: center;
 }

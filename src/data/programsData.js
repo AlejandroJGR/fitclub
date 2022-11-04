@@ -1,4 +1,4 @@
-import dumbell from "../assets/dumbell.png";
+import dumbell from "../assets/dumbell.svg";
 import runing from "../assets/runing.svg";
 import flame from "../assets/flame.svg";
 import heartHealth from "../assets/heartHealth.svg";
